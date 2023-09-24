@@ -1,0 +1,25 @@
+  
+#######################################
+# Syntax Coloring Map For 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+SHT31	KEYWORD2
+begin	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+readStatus	KEYWORD2
+reset	KEYWORD2
+heater	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

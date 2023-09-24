@@ -1,0 +1,16 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "*.ino": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "unordered_map": "cpp"
+    },
+    "particle.firmwareVersion": "5.5.0-rc.1",
+    "particle.targetPlatform": "boron",
+    "particle.targetDevice": ""
+}
