@@ -43,6 +43,7 @@ DC        A4
 // For 1.14", 1.3", 1.54", 1.69", and 2.0" TFT with ST7789:
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 SHT31 sht31 = SHT31();
+//If you are using the Photon 2, please comment out the following since Photon 2 does not have a fuel gauge
 FuelGauge fuel;
 
 char num = 0;
@@ -233,6 +234,7 @@ void drawTimeConsole(void)
   timeCanvas.fillRect(210,0,25,10,ST77XX_BLUE);
   timeCanvas.fillRect(207,3,3,4,ST77XX_BLUE);
   timeCanvas.setTextColor(ST77XX_WHITE);
+  //If you are using the Photon 2, please comment out the following since Photon 2 does not have a fuel gauge
   timeCanvas.print(fuel.getVCell());timeCanvas.print("V");
 
   timeCanvas.setFont(&Orbitron_Medium_40);
